@@ -50,7 +50,7 @@ export default {
         url: 'https://www.orbitos.id/',
         title: 'Orbitos Official - Bangga dengan produk lokal',
         site_name: 'Orbitos Official - Bangga dengan produk lokal',
-        description: 'Orbitos Official - Bangga dengan produk lokal',
+        description: 'Self Manufactured, Bangga dengan produk lokal',
         img: 'https://www.orbitos.id/ss.jpeg',
         locale: 'en_ID',
         twitter: '@orbitos_official',
