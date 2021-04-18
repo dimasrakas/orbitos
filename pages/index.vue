@@ -1,25 +1,57 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">orbitos</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div class="flex flex-col items-center justify-center px-4 py-8 bg-body">
+    <img class="rounded-full w-52 h-52" src="/orbitos.jpeg" alt="" />
+
+    <h1 class="mt-6 text-lg font-semibold text-center">
+      Pilih Official Store kami di bawah ini :
+    </h1>
+    <div class="grid w-full max-w-lg grid-cols-2 gap-4 mt-4">
+      <a
+        href="https://shopee.co.id/orbitos"
+        target="_blank"
+        class="flex items-center justify-center w-full p-4 bg-white rounded-lg cursor-pointer"
+      >
+        <img class="w-auto h-24" src="/social/shopee.png" alt="" />
+      </a>
+      <a
+        href="https://www.lazada.co.id/shop/orbitos"
+        target="_blank"
+        class="flex items-center justify-center w-full p-4 bg-white rounded-lg cursor-pointer"
+      >
+        <img class="w-auto h-24" src="/social/tokopedia.png" alt="" />
+      </a>
+      <div
+        class="flex items-center justify-center w-full p-4 bg-white rounded-lg cursor-pointer"
+      >
+        <img class="w-auto h-24" src="/social/bukalapak.png" alt="" />
+      </div>
+      <div
+        class="flex items-center justify-center w-full p-4 bg-white rounded-lg cursor-pointer"
+      >
+        <img class="w-auto" src="/social/blibli.png" alt="" />
+      </div>
+      <div
+        class="flex items-center justify-center w-full p-4 bg-white rounded-lg cursor-pointer"
+      >
+        <img class="w-auto h-24" src="/social/lazada.png" alt="" />
+      </div>
+      <div
+        class="flex items-center justify-center w-full p-4 bg-white rounded-lg cursor-pointer"
+      >
+        <img class="w-auto h-24" src="/social/jdid.png" alt="" />
+      </div>
+
+      <div
+        class="flex items-center w-full col-span-2 p-4 bg-white rounded-lg cursor-pointer"
+      >
+        <img class="w-auto h-8 mr-2" src="/social/wa.png" alt="" />
+        <h1 class="text-xl font-semibold text-gray-800">Customer Services 1</h1>
+      </div>
+      <div
+        class="flex items-center w-full col-span-2 p-4 bg-white rounded-lg cursor-pointer"
+      >
+        <img class="w-auto h-8 mr-2" src="/social/wa.png" alt="" />
+        <h1 class="text-xl font-semibold text-gray-800">Customer Services 2</h1>
       </div>
     </div>
   </div>
@@ -29,35 +61,4 @@
 export default {}
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
+<style lang="scss" scoped></style>
