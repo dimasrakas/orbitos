@@ -5,7 +5,7 @@
     <h1 class="mt-6 text-lg font-semibold text-center">
       Pilih Official Store kami di bawah ini :
     </h1>
-    <div class="grid w-full max-w-lg grid-cols-3 gap-8 mt-4">
+    <div class="grid w-full max-w-lg grid-cols-2 gap-4 mt-4">
       <a
         href="https://shopee.co.id/orbitos"
         target="_blank"
@@ -31,7 +31,7 @@
       <a
         href="https://api.whatsapp.com/send?phone=6282139730230&text=Halo%20Orbitos%20"
         target="_blank"
-        class="flex items-center w-full col-span-3 p-4 bg-white rounded-lg cursor-pointer"
+        class="flex items-center w-full col-span-2 p-4 bg-white rounded-lg cursor-pointer"
       >
         <img class="w-auto h-8 mr-2" src="/social/wa.png" alt="" />
         <h1 class="text-xl font-semibold text-gray-800">Customer Services 1</h1>
@@ -39,7 +39,7 @@
       <a
         href="https://api.whatsapp.com/send?phone=6282333889997&text=Halo%20Orbitos%20"
         target="_blank"
-        class="flex items-center w-full col-span-3 p-4 bg-white rounded-lg cursor-pointer"
+        class="flex items-center w-full col-span-2 p-4 bg-white rounded-lg cursor-pointer"
       >
         <img class="w-auto h-8 mr-2" src="/social/wa.png" alt="" />
         <h1 class="text-xl font-semibold text-gray-800">Customer Services 2</h1>
